@@ -35,7 +35,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-function PromoBanner(props) {
+const PromoBanner = (props) => {
   const {
     backgroundColor = "#1B3954",
     bannerTextColor = "white",
@@ -122,6 +122,6 @@ function PromoBanner(props) {
       </div>
     </div>
   );
-}
+};
 
 export default PromoBanner;

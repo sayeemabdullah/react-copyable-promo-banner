@@ -1,19 +1,20 @@
 {
-  "name": "responsive-promo-banner",
+  "name": "react-copyable-promo-banner",
   "version": "1.0.0",
-  "description": "A simple copyable responsive promo banner",
-  "main": "build/index.js",
+  "description": "A react customizable responsive copyable promo banner",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sayeemabdullah/responsive-promo-banner"
+    "url": "https://github.com/sayeemabdullah/react-copyable-promo-banner"
   },
   "keywords": [
     "react",
     "responsive",
+    "customizable",
     "banner",
     "promo",
     "copyable"
@@ -21,31 +22,32 @@
   "author": "Sayeem Md Abdullah",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sayeemabdullah/responsive-promo-banner/issues"
+    "url": "https://github.com/sayeemabdullah/react-copyable-promo-banner/issues"
   },
+  "homepage": "https://github.com/sayeemabdullah/react-copyable-promo-banner#readme",
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.4.5",
-    "@babel/preset-env": "7.4.5",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.5",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "webpack-cli": "^4.10.0"
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.60",
-    "babel-preset-react": "^6.24.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "webpack": "^5.73.0"
-  },
-  "homepage": "https://github.com/sayeemabdullah/responsive-promo-banner#readme"
+    "@material-ui/lab": "^4.0.0-alpha.60"
+  }
 }
