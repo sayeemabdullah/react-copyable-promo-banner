@@ -1,4 +1,4 @@
-# React Copyable Promo Banner
+# [React Copyable Promo Banner](https://www.npmjs.com/package/react-copyable-promo-banner)
 
 A react responsive promo banner that's customizable and can be copied when clicked.
 
@@ -8,7 +8,7 @@ A react responsive promo banner that's customizable and can be copied when click
 
 ### Customize it yourself
 
-Codesandbox: <https://codesandbox.io/s/react-copyable-promo-banner-demo-lluhoq?file=/src/App.js>
+_Codesandbox:_ <https://codesandbox.io/s/react-copyable-promo-banner-demo-lluhoq?file=/src/App.js>
 
 ### Usage
 
@@ -24,7 +24,7 @@ export default function App() {
 }
 ```
 
-###### The promo banner needs props to be customized. You can learn more about props by reading the section on props.
+> **The promo banner needs props to be customized. You can learn more about props by reading the section on props.**
 
 ### Props
 
